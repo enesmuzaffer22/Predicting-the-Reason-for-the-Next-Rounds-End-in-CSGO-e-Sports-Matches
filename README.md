@@ -1,10 +1,13 @@
 #Introduction
+
 In this project, a machine learning model has been developed to predict the reason for the end of the next round using a dataset from CS:GO e-sports matches. The aim of the project is to understand the game dynamics by performing analyses on specific maps and economic models and to predict future rounds based on these dynamics. Various machine learning models have been employed in this context, and the outputs are presented through an interface.
 
 #Literature Review
+
 In recent years, the application of data analytics and machine learning in complex team-based games like CS:GO has increased. Studies on game data generally focus on map balance, economic strategies, and player behavior. For example, research has been conducted on the advantages of CT and T sides on maps, player clustering behavior, and round success rates. Unlike these studies, this project presents an approach focused on prediction by combining both map and economic factors.
 
 # Dataset
+
 The project uses a dataset consisting of approximately 70,000 rows. Although the original dataset contains more attributes, only the necessary ones have been selected for this study. The dataset includes the following columns:
 
 - **Row ID**: A unique ID that defines each round.
@@ -47,7 +50,7 @@ Additionally, an interactive interface was designed as part of the project, and 
 
 The project was able to make meaningful predictions based on maps and economy statuses using CS:GO match data. It was observed that the Gradient Boosting model achieved the highest accuracy rate. Additionally, thanks to the interactive interface, users are able to both understand the game dynamics and predict potential reasons for the end of future rounds. Future work could further improve these models by processing larger datasets and incorporating player behavior.
 
-## Information
+# Information
 
 The project was developed using the Python programming language. The following libraries were used:
 
@@ -59,10 +62,10 @@ The project was developed using the Python programming language. The following l
 
 These libraries were used for processing the dataset, training the models, calculating accuracy rates, and allowing users to experience the project interactively on the Google Colab platform.
 
-## References
+# References
 
 [1] CS:GO esport matches: round data - HLTV.org, Accessed: 02.01.2025, [https://www.kaggle.com/datasets/livanoff/csgo-esport-matches-round-data](https://www.kaggle.com/datasets/livanoff/csgo-esport-matches-round-data)
 
-## Appendix
+# Appendix
 
 [Google Colab Project Link](https://colab.research.google.com/drive/15YozWUYVQqfxdenIl_jmyBJZeFbwOlGr?usp=sharing)
