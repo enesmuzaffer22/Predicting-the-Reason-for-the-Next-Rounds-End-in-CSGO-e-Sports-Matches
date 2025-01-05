@@ -1,8 +1,8 @@
-#Introduction
+# Introduction
 
 In this project, a machine learning model has been developed to predict the reason for the end of the next round using a dataset from CS:GO e-sports matches. The aim of the project is to understand the game dynamics by performing analyses on specific maps and economic models and to predict future rounds based on these dynamics. Various machine learning models have been employed in this context, and the outputs are presented through an interface.
 
-#Literature Review
+# Literature Review
 
 In recent years, the application of data analytics and machine learning in complex team-based games like CS:GO has increased. Studies on game data generally focus on map balance, economic strategies, and player behavior. For example, research has been conducted on the advantages of CT and T sides on maps, player clustering behavior, and round success rates. Unlike these studies, this project presents an approach focused on prediction by combining both map and economic factors.
 
